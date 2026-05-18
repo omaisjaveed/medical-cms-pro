@@ -1,4 +1,4 @@
-# Chiropractic & Wellness CMS
+# Medical-CMS-PRO 
 
 A professional, full-stack Content Management System (CMS) designed for Chiropractic clinics. This project features a modern, high-performance frontend and a robust administrative dashboard for managing content, services, blogs, and media.
 

@@ -1,0 +1,340 @@
+@media (max-width: 1024px) {
+  .masonry-grid {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-image-shell {
+    margin-bottom: 32px;
+  }
+
+  .about-content-wrapper h2 {
+    width: 100%;
+  }
+
+  .doctor-name-sec {
+    left: -30px;
+    width: 120px;
+    padding: 30px 15px;
+  }
+
+  .doctor-content-wrapper {
+    padding-left: 20px;
+  }
+
+  .doctor-content-wrapper h2 {
+    font-size: 36px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .gallery-col-middle .gallery-item {
+    min-height: 300px;
+  }
+
+  .gallery-heading-sec h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slide-content {
+    padding: 2rem 1.2rem;
+    min-height: auto;
+  }
+
+  .custom-row>div {
+    margin-bottom: 1.2rem;
+  }
+
+  .arrow-icon-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 1.4rem;
+  }
+
+  h1.display-5 {
+    font-size: 2rem;
+  }
+
+  .info-sec {
+    margin-top: 0;
+  }
+
+  .info-box.active {
+    transform: translateY(0);
+  }
+
+  .info-box:not(.active) {
+    margin-top: 0;
+  }
+
+  .info-shadow {
+    display: none;
+    /* mobile pe clean */
+  }
+
+  .our-services-sec {
+    padding: 50px 0;
+  }
+
+  .our-services-heading-wrapper h2 {
+    font-size: 2rem;
+  }
+
+  .slider-arrows {
+    margin-top: 1rem;
+    margin-left: 0 !important;
+    justify-content: flex-start;
+  }
+
+  .service-img {
+    height: 180px;
+  }
+
+  .doctor-sec {
+    padding: 60px 0;
+    background: #F7F5EC;
+  }
+
+  .doctor-image-sec {
+    margin-bottom: 30px;
+  }
+
+  .doctor-name-sec {
+    position: static;
+    transform: none;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .doctor-content-wrapper {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .gallery-sec {
+    padding: 50px 0;
+  }
+
+  .gallery-heading-sec h2 {
+    font-size: 32px;
+  }
+
+  .blog-sec {
+    padding: 50px 0;
+  }
+
+  .blog-heading-wrapper {
+    flex-direction: column;
+    align-items: center !important;
+    gap: 1rem;
+  }
+
+  .blog-heading-wrapper h2 {
+    font-size: 2rem;
+  }
+
+  .blog-img {
+    height: 180px;
+  }
+
+  .blog-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .other-services-sec {
+    padding: 50px 0;
+  }
+
+  .other-services-heading-wrapper h2 {
+    font-size: 40px;
+  }
+
+  .other-services-text-wrapper {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .other-para-arrow {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .other-service-img {
+    height: 200px;
+  }
+
+  .other-service-slide h4 {
+    font-size: 1.5rem;
+  }
+
+  .pain-services-grid-sec {
+    padding: 50px 0;
+  }
+
+  .pain-service-img {
+    height: 200px;
+  }
+
+  .pain-service-card h4 {
+    font-size: 1.5rem;
+  }
+
+  .meet-team-sec {
+    padding: 40px 0 20px;
+  }
+
+  .team-image {
+    height: 380px;
+  }
+
+  .team-info {
+    transform: translateY(75%);
+    padding: 1.5rem;
+  }
+
+  .team-info h3 {
+    font-size: 1.4rem;
+  }
+
+  .designation {
+    font-size: 0.85rem;
+  }
+
+  .team-info p {
+    font-size: 0.85rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .masonry-gallery-sec {
+    padding: 50px 0;
+  }
+
+  .masonry-grid {
+    column-count: 2;
+    column-gap: 16px;
+  }
+
+  .masonry-item {
+    margin-bottom: 16px;
+  }
+
+  .lightbox-prev,
+  .lightbox-next {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .blogs-listing-sec {
+    padding: 50px 0;
+  }
+
+  .blog-img {
+    height: 180px;
+  }
+
+  .blog-detail-sec {
+    padding: 40px 0 50px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .comment-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-page-sec {
+    padding: 50px 0;
+  }
+
+  .contact-info-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .form-wrapper {
+    padding: 1.5rem;
+  }
+
+  .form-wrapper h3 {
+    font-size: 1.5rem;
+  }
+
+  .faq-sec {
+    padding: 50px 0;
+  }
+
+  .faq-header h2 {
+    font-size: 2rem;
+  }
+
+  .faq-question {
+    padding: 1rem 1.2rem;
+  }
+
+  .faq-question h3 {
+    font-size: 1rem;
+  }
+
+  .faq-item.active .faq-answer {
+    padding: 0 1.2rem 1rem;
+  }
+
+  .faq-answer p {
+    font-size: 0.9rem;
+  }
+
+  .privacy-policy-sec {
+    padding: 40px 0 50px;
+  }
+
+  .policy-section {
+    padding-left: 1rem;
+  }
+
+  .policy-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .policy-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .policy-section ul {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .masonry-grid {
+    column-count: 1;
+  }
+}
